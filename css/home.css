@@ -1,0 +1,65 @@
+.home {
+    display: flex;
+    padding: 160px 80px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    background: var(--preto);
+}
+
+.home-content h1 {
+    font-size: 64px;
+    color: var(--branco);
+}
+
+.home-content span {
+    color:var(--verde);
+}
+
+.home-content p {
+    font-size: 24px;
+    margin: 10px 30px 50px 0;
+    color: var(--branco);
+}
+.home-content [href="#sobre"] {
+    font-size: 18px;
+    border-radius: 10px;
+    background: var(--verde);
+    color: var(--preto);
+    padding: 15px 50px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    
+}
+
+.home-content [href="#sobre"]:hover {
+    background: var(--branco);
+    transition: .2s;
+}
+
+.home-photo img {
+    width: 500px;
+}
+
+.rede-sociais {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .home {
+        flex-direction: column;
+    }
+    .home-content h1 {
+        font-size: 40px;
+    }
+    .home-content p {
+        font-size: 16px;
+    }
+
+
+}
