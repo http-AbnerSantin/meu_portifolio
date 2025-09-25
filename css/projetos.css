@@ -3,6 +3,18 @@
   display: flex;
   align-items: center;
 }
+
+.projetos-titulo {
+  color: var(--preto);
+    font-size: 64px;
+    margin: 130px 0px 30px 0px;
+}
+
+
+.projetos-titulo > span {
+    color: var(--verde);
+
+}
 .projetos-ul {
   display: flex;
   gap: 20px;

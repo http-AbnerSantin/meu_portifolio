@@ -5,6 +5,7 @@
 @import 'experiencia.css';
 @import 'projetos.css';
 @import 'contato.css';
+@import 'footer.css';
 
 html {
     scroll-behavior: smooth;

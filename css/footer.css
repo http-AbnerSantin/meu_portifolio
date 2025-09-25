@@ -1,0 +1,13 @@
+footer {
+    background: var(--verde);
+    padding: 130px 80px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer p span {
+    font-weight: bold;
+}
