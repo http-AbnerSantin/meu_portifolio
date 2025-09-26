@@ -91,3 +91,13 @@
 }
 
 
+@media (max-width: 950px) {
+  .seta {
+    display: none;
+  }
+
+  .projetos-titulo {
+    font-size: 40px;
+  }
+}
+

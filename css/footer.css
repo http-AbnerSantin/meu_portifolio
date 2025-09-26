@@ -1,6 +1,6 @@
 footer {
     background: var(--verde);
-    padding: 130px 80px;
+    padding: 130px var(--padding-lateral);
 }
 
 footer p {

@@ -29,11 +29,14 @@ html {
     --branco: #fff;
     --cinza: #F8F8F8;
     --azul-forte:#14213D;
+
+
+    --padding-lateral: 50px;
 }
 
 body {
 
-    height: 3000px;
+    
     
 }
 
@@ -47,4 +50,11 @@ body {
     opacity: 1;
     transform: translate3d(0, 0, 0);
 
+}
+
+
+@media (max-width: 900px) {
+    :root {
+        --padding-lateral: 30px;
+    }
 }
