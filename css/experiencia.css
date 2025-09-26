@@ -22,11 +22,11 @@
 }
 .experiencia h2 {
   font-size: 64px;
-  color: var(--branco);
+  color: var(--preto);
 }
 
 .experiencia h2 > span {
-  color: var(--preto);
+  color: var(--branco);
 }
 
 .experiencia p {
